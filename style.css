@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+body{
+    background-color: #f9c253;
+}
+
+.Cristian{
+    height: 250px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.Cristian:hover{
+    opacity: 0;
+    position: absolute;
+    transition: .8s;
+}
+
+
+a{
+    color: #000;
+}
+
+a:visited{
+    color: #9f5603;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+h2{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.contenedor__presentacion{
+    object-fit:none;
+    text-align: left;
+}
+
+.seccion__1{
+    border: 5px solid #444;
+    width: 380px;
+    height: 300px;
+    margin: 10px auto;
+    display: flex;
+    padding: 10px; 
+    align-items: center;
+}
+ 
+
+.seccion__2 ul{
+    list-style-type: none;
+}
+
+.seccion__2{
+    border: 5px solid #444;
+    margin: 10px auto;
+    width: 380px;
+    height: 120px;
+    padding: 5px;
+    text-align: center;
+}
+
+
+.seccion__3{
+    border: 5px solid #444;
+    margin: 10px auto;
+    width:700px;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+
+#__habilidades{
+    text-align: center;
+}
+
+.seccion__4 ul{
+        list-style-type: none;
+}
+
+.seccion__4{
+    border: 5px solid #444;
+    margin: 10px auto;
+    width:700px;    
+    text-align: left;
+    padding: 5px;
+}
+
+
+.seccion__5{
+    border: 5px solid #444;
+    margin: 10px auto;
+    width:700px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.seccion__6 ul{
+        list-style-type: none;
+}
+
+.seccion__6{
+    border: 5px solid #444;
+    margin: 10px auto;
+    width: 700px;
+    text-align: center;
+    padding: 5px;
+}
+
+.seccion__7{
+    border: 5px solid #444;
+    margin: 10px auto;
+    width: 400px;
+    text-align: left;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+#__contacto{
+    text-align: center;
+}
+
+.formulario{
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario input:focus{
+    background-color: #eeb578;
+}
+
+section{
+    background-image: url(./perro-de-perrito-lindo-del-labrador-retriever-personaje-dibujos-animados-vector-para-el-diseño-142307126.jpg);
+    background-size: 50px;
+    background-position: left;
+    border-radius: 5px;
+}
+
+
+section:hover{
+        background-image: url(./huellitas.jpg);
+        background-size: 50%;
+        background-position: right;
+        transition: .8s;
+        border: 5px double #cd7415;
+        color: #000;
+}

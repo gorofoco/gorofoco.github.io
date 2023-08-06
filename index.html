@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi CV</title>
+</head>
+<body>
+    <section class="seccion__1">
+        <img  class="Cristian" src="./Cristian.JPG">
+        <div class="contenedor__presentacion">
+            <h1>Cristian Goró</h1>
+            <p class="parrafo__1">Me apasionan temas como: el desarrollo web, el diseño UX/UI, los videojuegos, el emprendimiento, las redes sociales, las últimas tecnologías, los deportes extremos, la salud, los viajes, conocer el mundo, etc.</p>
+        </div>   
+    </section>
+     <hr>
+    <section class="seccion__2">
+        <ul>
+            <li><a href="#__experiencia">Experiencia profesional</a></li>
+            <li><a href="#__habilidades">Habilidades y conocimientos</a></li>
+            <li><a href="#__educacion">Educación</a></li>
+            <li><a href="#__perfiles">Perfiles sociales</a></li>
+            <li><a href="#__contacto">Contactar</a></li>
+        </ul>
+    </section>
+     <hr>
+    <section class="seccion__3"> 
+           
+        <h2 id="__experiencia">Experiencia profesional</h2>
+        <table>
+            <tr>
+                <td><b>Empresa/Organización</b></td>
+                <td><b>Cargo</b></td>
+                <td><b>Localización</b></td>
+                <td><b>Desde-Hasta</b></td>
+            </tr>
+            <tr>
+                <td>Hogar Español.</td>
+                <td>Profesor de educación física.</td>
+                <td>Uruguay, Soriano, Mercedes.</td>
+                <td>Marzo 2019 - Octubre 2020.</td>
+            </tr>
+            <tr>
+                <td>Ejercito Nacional.</td>
+                <td>Administrativo.</td>
+                <td>Uruguay, Soriano, Mercedes.</td>
+                <td>Abril 2021 - Actualidad.</td>
+            </tr>           
+        </table>
+    </section>
+    <hr>
+    <section class="seccion__4">
+        <h2 id="__habilidades">Habilidades y conocimientos</h2>
+        <ul>
+            <li><b>Desarrollo web:</b> HTML, CSS, JavaScript.</li>
+            <li><b>Administración:</b> gestión, análisis, registro y clasificación de datos. Dominio de Office 365.</li>
+            <li><b>Educación física:</b> motivación, actividad física con niños, adolescentes, adultos y tercera edad, liderazgo y aprendizaje a través de la recreación.</li>
+        </ul>
+    </section>    
+    <hr>
+    <section class="seccion__5">
+        <h2 id="__educacion">Educación</h2>
+        <table>
+            <tr>
+                <td><b>Título</b></td>
+                <td><b>Entidad</b></td>
+                <td><b>Promoción</b></td>
+            </tr>
+            <tr>
+                <td>Intento de FrontEnd Dev</td>
+                <td>JaP</td>
+                <td>Ojalá que éste 2023 :D</td>
+            </tr>
+            <tr>
+                <td>Curso: Asistente administrativo.</td>
+                <td>UTU</td>
+                <td>2020</td>
+            </tr>
+            <tr>
+                <td>Curso: Asistente deportivo.</td>
+                <td>UTU</td>
+                <td>2019</td>
+            </tr>
+        </table>
+    </section>
+    <hr>
+    <section class="seccion__6">
+        <h2 id="__perfiles">Perfiles Sociales</h2>
+        <ul>
+            <li><a href="https://www.instagram.com/gorofoco/" target="_blank">Cristian Goró</a></li>
+            <li><a href="https://www.linkedin.com/signup/" target="_blank">Linkedin </a>(lo debo).</li>
+            <li><a href="https://twitter.com/" target="_blank">Twitter </a>(lo debo).</li>
+            <li><a href="https://github.com/" target="_blank">GitHub </a>(lo debo).</li>
+        </ul>
+    </section>
+    <hr>
+    <section class="seccion__7">
+        <h2 id="__contacto">Contactar</h2>
+        <form  class="formulario">
+            <label for="contacto">Para: <input type="email" required></label><br>
+            <label for="tematica">Temática: 
+                <select name="tematica" id="__tema">
+                    <option value="tema" selected disabled>-- Elige un tema --</option>
+                    <option value="consulta">Consulta</option>
+                    <option value="propuesta">Propuesta</option>
+                    <option value="reporte">Reporte</option>
+                    <option value="otro">Otro</option>
+                </select>
+            </label>
+            <br>
+            <label for="asunto">Asunto: <input type="text"></label>
+            <br>
+            <label for="">Cuerpo: <textarea name="cuerpo" id="__cuerpo" cols="20" rows="2"></textarea> <input type="submit"></label>
+        </form>
+    </section>
+</body>
+</html>
